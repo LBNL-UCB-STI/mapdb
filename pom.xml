@@ -4,9 +4,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.beammapdb</groupId>
-    <artifactId>mapdb</artifactId>
+    <artifactId>beammapdb</artifactId>
     <version>3.0.5</version>
-    <name>mapdb</name>
+    <name>beammapdb</name>
     <description>MapDB provides concurrent Maps, Sets and Queues backed by disk storage or off-heap memory. It is a fast, scalable and easy to use embedded Java database.</description>
     <url>http://www.mapdb.org</url>
 
@@ -28,9 +28,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git@github.com:jankotek/mapdb.git</connection>
-        <developerConnection>scm:git:git@github.com:jankotek/mapdb.git</developerConnection>
-        <url>git@github.com:jankotek/mapdb.git</url>
+        <connection>scm:git:git@github.com:LBNL-UCB-STI/mapdb.git</connection>
+        <developerConnection>scm:git:git@github.com:LBNL-UCB-STI/mapdb.git</developerConnection>
+        <url>git@github.com:LBNL-UCB-STI/mapdb.git</url>
     </scm>
 
     <properties>
