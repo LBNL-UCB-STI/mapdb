@@ -168,7 +168,7 @@ class StoreWAL(
         if(ret == 0L)
             throw DBException.GetVoid(recid)
 
-        return DataIO.parity1Get(ret)
+        return DataIO.parity1Get(ret).toLong()
     }
 
     override fun setIndexVal(recid: Long, value: Long) {
