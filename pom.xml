@@ -3,7 +3,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>gov.lbl.sti.mapdb</groupId>
+    <groupId>org.beammapdb</groupId>
     <artifactId>mapdb</artifactId>
     <version>3.0.5</version>
     <name>mapdb</name>
@@ -214,7 +214,7 @@
                     <properties>
                         <property>
                             <name>listener</name>
-                            <value>org.mapdb.JUnitRunListener</value>
+                            <value>JUnitRunListener</value>
                         </property>
                     </properties>
                     <parallel>classesAndMethods</parallel>
